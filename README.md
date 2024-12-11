@@ -12,4 +12,8 @@ This database serves two main purposes. One is to assess human perceptions and r
 **Large Language Models (LLMs)**
 Large Language Models (LLMs) have transformed **natural language processing (NLP)** by facilitating context-sensitive, high-precision text analysis. For example, ChatGPT is a useful tool for evaluating the complex and emotionally charged language frequently found in social media messages because of its proficiency in sentiment classification, contextual understanding, and summarization.
 **BERT-based models** excel in aspect-based sentiment analysis (ABSA). It can effectively extract sentiments on certain subjects and entities. It has been shown that integrating contextual embeddings (such those from BERT) with sentiment analysis tasks greatly enhances performance, particularly when resources are limited. (6)
-The ability of LLMs to analyse complicated datasets like Facebook posts is further increased by their hybridization with other NLP approaches like topic modelling and coreference resolution.
+The ability of LLMs to analyse complicated datasets like Facebook posts is further increased by their hybridization with other NLP approaches like topic modeling and coreference resolution.
+
+**Methodology:**
+Data Preprocessing: 
+Step 1 was data preprocessing. I had the facebook post of 4000 people in text format. Then, I scrapped, organize and store those posts with the help of **Pandas and sql**.   Following this, I processed all of the posts and organized them into a Excel file. I organized almost 23000 post including participant numbers. I also stored other entities.(Likes, share, replies)
