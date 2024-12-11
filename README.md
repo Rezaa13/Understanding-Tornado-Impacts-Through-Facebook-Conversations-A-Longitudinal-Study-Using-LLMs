@@ -16,4 +16,4 @@ The ability of LLMs to analyse complicated datasets like Facebook posts is furth
 
 **Methodology:**
 Data Preprocessing: 
-Step 1 was data preprocessing. I had the facebook post of 4000 people in text format. Then, I scrapped, organize and store those posts with the help of **Pandas and sql**.   Following this, I processed all of the posts and organized them into a Excel file. I organized almost 23000 post including participant numbers. I also stored other entities.(Likes, share, replies)
+Step 1 was data preprocessing. I had the Facebook post of 4000 people in text format. Then, I scrapped, organized and stored those posts with the help of **Pandas and sql**.   Following this, I processed all of the posts and organized them into an Excel file. I organized almost 23000 posts including participant numbers. I also stored other entities.(Likes, shares, replies). I converted the text file of every participant and stored it in Excel. The code file of this process 'Data_Extraction_p1'
