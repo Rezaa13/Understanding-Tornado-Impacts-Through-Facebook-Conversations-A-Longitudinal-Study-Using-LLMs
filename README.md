@@ -17,6 +17,8 @@ The ability of LLMs to analyze complicated datasets like Facebook posts is furth
 **Methodology:**
 ![Roadmap](https://github.com/user-attachments/assets/56bfde72-3c64-4e52-99cb-493942318a14)
 
+ I started with raw Facebook data. Then, I scrapped that and collected the texts and other entities in a database. I then leveled the data with OpenAI. After that I trained LLM models with a part of data. Observing that result I fine-tuned the LLM model and ran the rest of the data. That is how I could get a sentiment score for each post.
+
 Data Preprocessing: 
 Step 1 was data preprocessing. I had the Facebook post of 4000 people in text format. Then, I scrapped, organized and stored those posts with the help of **Pandas and sql**.   Following this, I processed all of the posts and organized them into an Excel file. I organized almost 23000 posts including participant numbers. I also stored other entities.(Likes, shares, replies). I converted the text file of every participant and stored it in Excel. The code file of this process 'Data_Extraction_p1'. Then I combined the extracted posts of every applicant and combined those to build a database. 
 
