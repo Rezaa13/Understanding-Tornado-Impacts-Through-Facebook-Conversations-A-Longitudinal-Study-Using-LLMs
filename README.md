@@ -22,6 +22,7 @@ The ability of LLMs to analyze complicated datasets like Facebook posts is furth
 Data Preprocessing: 
 Step 1 was data preprocessing. I had the Facebook post of 4000 people in text format. Then, I scrapped, organized and stored those posts with the help of **Pandas and sql**.   Following this, I processed all of the posts and organized them into an Excel file. I organized almost 23000 posts including participant numbers. I also stored other entities.(Likes, shares, replies). I converted the text file of every participant and stored it in Excel. The code file of this process 'Data_Extraction_p1'. Then I combined the extracted posts of every applicant and combined those to build a database. 
 Leveling and scoring data: I scored the Facebook post into three criteria. (Positive, Neutral, Negative). In Step 2, I leveled and scored the sentiments of all 23000+ Facebook posts with GPT4 and openAI. It gave me great results. The code file is: Sentiment-Analysis (OpenAi).A part of the output data can be found as 'processed_sentiments_OpenAI'. Here is an example. 
+
 ![ex sentiment openai](https://github.com/user-attachments/assets/7de3aa87-2092-4d63-8053-361a583eb64a)
 
 
