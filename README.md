@@ -25,6 +25,6 @@ Leveling and scoring data: I scored the Facebook post into three criteria. (Posi
 
 ![ex sentiment openai](https://github.com/user-attachments/assets/7de3aa87-2092-4d63-8053-361a583eb64a)
 
-In step 3, I choose 2 LLM models. 
+In step 3, I chose 2 LLM models. The ** DistilBERT ** and **Twitter-LM** models were used together to name the posts based on their mood and score them. 
 
 
